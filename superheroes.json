@@ -13,7 +13,7 @@
       "id": "001",
       "imageName": "Molecule Man",
       "image": "molecule_man.jpg",
-      "path": "images";
+      "path": "images",
       "powers": [
         "Radiation resistance",
         "Turning tiny",
@@ -28,7 +28,7 @@
       "id": "002",
       "imageName": "Madame Uppercut",
       "image": "madame_uppercut.jpg",
-      "path": "images";
+      "path": "images",
       "powers": [
         "Million tonne punch",
         "Damage resistance",
@@ -43,7 +43,7 @@
       "id": "003",
       "imageName": "Eternal Flame",
       "image": "eternal_flame.jpg",
-      "path": "images";
+      "path": "images",
       "powers": [
         "Immortality",
         "Heat Immunity",
