@@ -10,6 +10,10 @@
       "age": 29,
       "secretIdentity": "Dan Jukes",
       "url": "http://google.de",
+      "id": "001",
+      "name": "Molecule Man",
+      "image": "molecule_man.jpg",
+      "path": "images";
       "powers": [
         "Radiation resistance",
         "Turning tiny",
@@ -21,6 +25,10 @@
       "age": 39,
       "secretIdentity": "Jane Wilson",
       "url": "http://bing.de",
+      "id": "002",
+      "name": "Madame Uppercut",
+      "image": "madame_uppercut.jpg",
+      "path": "images";
       "powers": [
         "Million tonne punch",
         "Damage resistance",
@@ -32,6 +40,10 @@
       "age": 1000000,
       "secretIdentity": "Unknown",
       "url": "http://yahoo.com",
+      "id": "003",
+      "name": "Eternal Flame",
+      "image": "eternal_flame.jpg",
+      "path": "images";
       "powers": [
         "Immortality",
         "Heat Immunity",
