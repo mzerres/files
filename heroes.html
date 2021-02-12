@@ -58,9 +58,17 @@
                 const cardText = document.createElement('div');
                 const myH2 = document.createElement('h5');
                 const myPara1 = document.createElement('p');
-                const myPara2 = document.createElement('p');
                 const myPara3 = document.createElement('p');
                 const myList = document.createElement('ul');
+                const br = document.createElement('br');
+                const a = document.createElement('a');
+                
+                var superPowers = heroes[i].powers;
+                for (var j = 0; j < superPowers.length; j++) {
+                var listItem = document.createElement('li');
+                    listItem.textContent = superPowers[j];
+                    myList.appendChild(listItem);
+                }
                 
                 // Add classes
                 cardGroup.className = 'card-group';
@@ -69,18 +77,17 @@
                 cardTitle.className = 'card-title';
                 cardText.className = 'card-text';
                 cardImage.className = 'card-img-top';
+                a.className = 'btn btn-primary';
                 
                 myH2.textContent = heroes[i].name;
-                myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
-                myPara2.textContent = 'Age: ' + heroes[i].age;
+                myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity + '\n\r' + 'Age: ' + heroes[i].age ;
+                myPara1.innerHTML = myPara1.innerHTML.replace(/\n\r?/g, '<br />');
                 myPara3.textContent = 'Superpowers:';
-                
-                const superPowers = heroes[i].powers;
-                for (let j = 0; j < superPowers.length; j++) {
-                    const listItem = document.createElement('li');
-                    listItem.textContent = superPowers[j];
-                    myList.appendChild(listItem);
-                }
+                cardImage.src = heroes[i].path + '/' + heroes[i].image;
+                cardImage.alt = heroes[i].image;
+                a.title = heroes[i].url;
+                a.href = heroes[i].url;
+                const linkText = document.createTextNode("more");
                 
                 section.appendChild(cardGroup);
                 cardGroup.appendChild(card);
@@ -90,9 +97,10 @@
                 cardBody.appendChild(cardText);
                 cardTitle.appendChild(myH2);
                 cardText.appendChild(myPara1);
-                cardText.appendChild(myPara2);
                 cardText.appendChild(myPara3);
                 cardText.appendChild(myList);
+                cardText.appendChild(a);
+                a.appendChild(linkText);
 
                 cardGroup.appendChild(card);
             }
