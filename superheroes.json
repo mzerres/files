@@ -11,7 +11,7 @@
       "secretIdentity": "Dan Jukes",
       "url": "http://google.de",
       "id": "001",
-      "name": "Molecule Man",
+      "imageName": "Molecule Man",
       "image": "molecule_man.jpg",
       "path": "images";
       "powers": [
@@ -26,7 +26,7 @@
       "secretIdentity": "Jane Wilson",
       "url": "http://bing.de",
       "id": "002",
-      "name": "Madame Uppercut",
+      "imageName": "Madame Uppercut",
       "image": "madame_uppercut.jpg",
       "path": "images";
       "powers": [
@@ -41,7 +41,7 @@
       "secretIdentity": "Unknown",
       "url": "http://yahoo.com",
       "id": "003",
-      "name": "Eternal Flame",
+      "imageName": "Eternal Flame",
       "image": "eternal_flame.jpg",
       "path": "images";
       "powers": [
