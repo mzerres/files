@@ -17,7 +17,7 @@
       "Book ID": "1",
       "Book Name": "Computer Architecture",
       "Category": "Computers",
-      "Price": "125.60",
+      "Price": 125.60,
       "powers": [
         "Radiation resistance",
         "Turning tiny",
