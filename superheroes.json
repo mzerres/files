@@ -45,15 +45,14 @@
         "Superhuman reflexes"
       ],
       "costs": [
-        "Book ID": "1",
-        "Book Name": "Computer Architecture",
-        "Category": "Computers",
-        "Price": "125.60"
+        "1,99",
+        "9,99",
+        "3,00"
       ],
       "sku": [
         "l595",
-        "k686",
-        "m001"
+        "l686",
+        "l808"
       ]
     },
     {
