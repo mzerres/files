@@ -1,5 +1,5 @@
 {
-  "squadName": "Super hero squad",
+  "squadName": "Super hero squady",
   "homeTown": "Metro City",
   "formed": 2016,
   "secretBase": "Super tower",
@@ -18,6 +18,16 @@
         "Radiation resistance",
         "Turning tiny",
         "Radiation blast"
+      ],
+      "costs": [
+        "3,45",
+        "7,99",
+        "1,67"
+      ],
+      "costs": [
+        "1,67",
+        "1,78",
+        "3,00"
       ]
     },
     {
