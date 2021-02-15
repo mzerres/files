@@ -72,7 +72,7 @@
                     myList.appendChild(listItem);
                     
                     var td = document.createElement('td');
-                    td.textContent = superPowers[j];
+                    td.textContent = costs[j];
                     tr.appendChild(td);
                 }
                 
@@ -95,7 +95,7 @@
                 cardImage.alt = heroes[i].image;
                 a.title = heroes[i].url;
                 a.href = heroes[i].url;
-                const linkText = document.createTextNode("more"); 
+                const linkText = document.createTextNode("more");
  
                 section.appendChild(cardGroup);
                 cardGroup.appendChild(card);
