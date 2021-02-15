@@ -1,5 +1,5 @@
 {
-  "squadName": "Super hero squady",
+  "squadName": "Super hero squad",
   "homeTown": "Metro City",
   "formed": 2016,
   "secretBase": "Super tower",
@@ -24,10 +24,10 @@
         "7,99",
         "1,67"
       ],
-      "costs": [
-        "1,67",
-        "1,78",
-        "3,00"
+      "sku": [
+        "p123",
+        "l686",
+        "l808"
       ]
     },
     {
@@ -43,6 +43,16 @@
         "Million tonne punch",
         "Damage resistance",
         "Superhuman reflexes"
+      ],
+      "costs": [
+        "1,99",
+        "9,99",
+        "3,00"
+      ],
+      "sku": [
+        "l595",
+        "k686",
+        "m001"
       ]
     },
     {
@@ -60,6 +70,16 @@
         "Inferno",
         "Teleportation",
         "Interdimensional travel"
+      ],
+      "costs": [
+        "4,45",
+        "9,99",
+        "1,11"
+      ],
+      "sku": [
+        "p899",
+        "k982",
+        "s464"
       ]
     }
   ]
