@@ -62,13 +62,20 @@
                 const myList = document.createElement('ul');
                 const br = document.createElement('br');
                 const a = document.createElement('a');
+                const table = document.createElement('table');
+                const tr = document.createElement('tr');
                 
                 var superPowers = heroes[i].powers;
                 for (var j = 0; j < superPowers.length; j++) {
-                var listItem = document.createElement('li');
+                    var listItem = document.createElement('li');
                     listItem.textContent = superPowers[j];
                     myList.appendChild(listItem);
+                    
+                    var td = document.createElement('td');
+                    td.textContent = superPowers[j];
+                    tr.appendChild(td);
                 }
+                
                 
                 // Add classes
                 cardGroup.className = 'card-group';
@@ -78,6 +85,7 @@
                 cardText.className = 'card-text';
                 cardImage.className = 'card-img-top';
                 a.className = 'btn btn-primary';
+                table.className = 'table table-bordered';
                 
                 myH2.textContent = heroes[i].name;
                 myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity + '\n\r' + 'Age: ' + heroes[i].age ;
@@ -87,8 +95,8 @@
                 cardImage.alt = heroes[i].image;
                 a.title = heroes[i].url;
                 a.href = heroes[i].url;
-                const linkText = document.createTextNode("more");
-                
+                const linkText = document.createTextNode("more"); 
+ 
                 section.appendChild(cardGroup);
                 cardGroup.appendChild(card);
                 card.appendChild(cardImage);
@@ -101,7 +109,9 @@
                 cardText.appendChild(myList);
                 cardText.appendChild(a);
                 a.appendChild(linkText);
-
+                cardText.appendChild(table);
+                table.appendChild(tr);
+                
                 cardGroup.appendChild(card);
             }
         }
