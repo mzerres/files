@@ -20,11 +20,11 @@
         "Radiation blast"
       ]
       {
-            "Book ID": "1",
-            "Book Name": "Computer Architecture",
-            "Category": "Computers",
-            "Price": "125.60"
-        },
+        "Book ID": "1",
+        "Book Name": "Computer Architecture",
+        "Category": "Computers",
+        "Price": "125.60"
+      },
     },
     {
       "name": "Madame Uppercut",
@@ -41,11 +41,11 @@
         "Superhuman reflexes"
       ]
       {
-                "Book ID": "3",
-                "Book Name": "Popular Science",
-                "Category": "Science",
-                "Price": "210.40"
-            },
+        "Book ID": "3",
+        "Book Name": "Popular Science",
+        "Category": "Science",
+        "Price": "210.40"
+      },
     },
     {
       "name": "Eternal Flame",
@@ -66,9 +66,9 @@
       {
         "Book ID": "2",
         "Book Name": "Asp.Net 4 Blue Book",
-            "Category": "Programming",
-            "Price": "56.00"
-        },
+        "Category": "Programming",
+        "Price": "56.00"
+      },
     }
   ]
 }
