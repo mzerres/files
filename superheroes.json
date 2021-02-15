@@ -18,14 +18,16 @@
         "Radiation resistance",
         "Turning tiny",
         "Radiation blast"
-      ]
+      ],
       "costs": [
-        {
-            "Book ID": "1",
-            "Book Name": "Popular Science",
-            "Category": "Science",
-            "Price": "210.40"
-        },
+        "3,45",
+        "7,99",
+        "1,67"
+      ],
+      "sku": [
+        "p123",
+        "l686",
+        "l808"
       ]
     },
     {
@@ -41,14 +43,17 @@
         "Million tonne punch",
         "Damage resistance",
         "Superhuman reflexes"
-      ]
+      ],
       "costs": [
-        {
-            "Book ID": "2",
-            "Book Name": "Computer Architecture",
-            "Category": "Computers",
-            "Price": "125.60"
-        },
+        "Book ID": "1",
+        "Book Name": "Computer Architecture",
+        "Category": "Computers",
+        "Price": "125.60"
+      ],
+      "sku": [
+        "l595",
+        "k686",
+        "m001"
       ]
     },
     {
@@ -61,19 +66,21 @@
       "image": "eternal_flame.jpg",
       "path": "images",
       "powers": [
-            "Immortality",
-            "Heat Immunity",
-            "Inferno",
-            "Teleportation",
-            "Interdimensional travel"
-      ]
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ],
       "costs": [
-        {
-            "Book ID": "3",
-            "Book Name": "Asp.Net 4 Blue Book",
-            "Category": "Programming",
-            "Price": "56.00"
-        },
+        "4,45",
+        "9,99",
+        "1,11"
+      ],
+      "sku": [
+        "p899",
+        "k982",
+        "s464"
       ]
     }
   ]
