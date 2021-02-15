@@ -18,7 +18,7 @@
         "Radiation resistance",
         "Turning tiny",
         "Radiation blast"
-      ],
+      ]
       "costs": [
         {
             "Book ID": "1",
@@ -41,7 +41,7 @@
         "Million tonne punch",
         "Damage resistance",
         "Superhuman reflexes"
-      ],
+      ]
       "costs": [
         {
             "Book ID": "2",
