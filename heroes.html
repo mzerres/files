@@ -70,7 +70,10 @@
                     var listItem = document.createElement('li');
                     listItem.textContent = superPowers[j];
                     myList.appendChild(listItem);
-                    
+                }
+                
+                var costs = heroes[i].costs;
+                for (var c = 0; c < costs.length; c++) {
                     var td = document.createElement('td');
                     td.textContent = costs[j];
                     tr.appendChild(td);
