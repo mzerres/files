@@ -24,10 +24,10 @@
         "7,99",
         "1,67"
       ],
-      "sku": [
-        "p123",
-        "l686",
-        "l808"
+      "costs": [
+        "3,45",
+        "7,99",
+        "1,67"
       ]
     },
     {
@@ -43,16 +43,6 @@
         "Million tonne punch",
         "Damage resistance",
         "Superhuman reflexes"
-      ],
-      "costs": [
-        "1,99",
-        "9,99",
-        "1,67"
-      ],
-      "sku": [
-        "p123",
-        "l686",
-        "l808"
       ]
     },
     {
@@ -70,16 +60,6 @@
         "Inferno",
         "Teleportation",
         "Interdimensional travel"
-      ],
-      "costs": [
-        "4,45",
-        "9,99",
-        "1,11"
-      ],
-      "sku": [
-        "p899",
-        "k982",
-        "s464"
       ]
     }
   ]
