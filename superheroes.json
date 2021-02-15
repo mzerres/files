@@ -40,6 +40,12 @@
         "Damage resistance",
         "Superhuman reflexes"
       ]
+      {
+                "Book ID": "3",
+                "Book Name": "Popular Science",
+                "Category": "Science",
+                "Price": "210.40"
+            },
     },
     {
       "name": "Eternal Flame",
@@ -57,6 +63,12 @@
         "Teleportation",
         "Interdimensional travel"
       ]
+      {
+        "Book ID": "2",
+        "Book Name": "Asp.Net 4 Blue Book",
+            "Category": "Programming",
+            "Price": "56.00"
+        },
     }
   ]
 }
