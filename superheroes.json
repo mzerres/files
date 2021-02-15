@@ -19,6 +19,12 @@
         "Turning tiny",
         "Radiation blast"
       ]
+      {
+            "Book ID": "1",
+            "Book Name": "Computer Architecture",
+            "Category": "Computers",
+            "Price": "125.60"
+        },
     },
     {
       "name": "Madame Uppercut",
