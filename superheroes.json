@@ -13,7 +13,7 @@
       "id": "001",
       "imageName": "Molecule Man",
       "image": "molecule_man.jpg",
-      "path": "images",
+      "path": "images", 
       "powers": [
         "Radiation resistance",
         "Turning tiny",
