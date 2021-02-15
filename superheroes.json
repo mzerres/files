@@ -20,14 +20,10 @@
         "Radiation blast"
       ],
       "costs": [
-        "3,45",
-        "7,99",
-        "1,67"
-      ],
-      "sku": [
-        "p123",
-        "l686",
-        "l808"
+        "Book ID": "1",
+        "Book Name": "Popular Science",
+        "Category": "Science",
+        "Price": "210.40"
       ]
     },
     {
@@ -45,14 +41,10 @@
         "Superhuman reflexes"
       ],
       "costs": [
-        "1,99",
-        "9,99",
-        "3,00"
-      ],
-      "sku": [
-        "l595",
-        "k686",
-        "m001"
+        "Book ID": "2",
+        "Book Name": "Computer Architecture",
+        "Category": "Computers",
+        "Price": "125.60"
       ]
     },
     {
@@ -72,14 +64,10 @@
         "Interdimensional travel"
       ],
       "costs": [
-        "4,45",
-        "9,99",
-        "1,11"
-      ],
-      "sku": [
-        "p899",
-        "k982",
-        "s464"
+        "Book ID": "3",
+        "Book Name": "Asp.Net 4 Blue Book",
+        "Category": "Programming",
+        "Price": "56.00"
       ]
     }
   ]
