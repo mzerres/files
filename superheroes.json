@@ -14,25 +14,12 @@
       "imageName": "Molecule Man",
       "image": "molecule_man.jpg",
       "path": "images",
-      "bookList": [
-        { 
-          "bookID": "1",
-          "bookName": "Computer Architecture",
-          "Price": 125.60
-        },
-        {
-          "category": [
-            "Computers",
-            "Bios",
-            "Security" 
-          ]
-        }
-      },
       "powers": [
         "Radiation resistance",
         "Turning tiny",
         "Radiation blast"
-      ]
+        ]
+      }
     },
     {
       "name": "Madame Uppercut",
