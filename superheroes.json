@@ -14,10 +14,18 @@
       "imageName": "Molecule Man",
       "image": "molecule_man.jpg",
       "path": "images",
-      "bookID": "1",
-      "bookName": "Computer Architecture",
-      "category": "Computers",
-      "Price": 125.60,
+      "bookList": [
+        {
+          "bookID": "1",
+          "bookName": "Computer Architecture",
+          "Price": 125.60,
+          "category": [
+            "Computers",
+            "Bios",
+            "Security"
+          ]
+        },
+      ],
       "powers": [
         "Radiation resistance",
         "Turning tiny",
