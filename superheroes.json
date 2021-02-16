@@ -6,19 +6,33 @@
   "active": true,
   "members": [
     {
-      "name": "Madame Uppercut",
-      "age": 39,
-      "secretIdentity": "Jane Wilson",
-      "url": "http://bing.de",
-      "id": "002",
-      "imageName": "Madame Uppercut",
-      "image": "madame_uppercut.jpg",
+      "name": "Molecule Man",
+      "age": 29,
+      "secretIdentity": "Dan Jukes",
+      "url": "http://google.de",
+      "id": "001",
+      "imageName": "Molecule Man",
+      "image": "molecule_man.jpg",
       "path": "images",
+      "bookList": 
+        {
+          "bookID": "1",
+          "bookName": "Computer Architecture",
+          "Price": 125.60
+        },
+          "category": [
+            "Computers",
+            "Bios",
+            "Security" 
+          ]
+        },
+      {      
       "powers": [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+        ]
+      }
     },
     {
       "name": "Madame Uppercut",
