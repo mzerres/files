@@ -6,18 +6,18 @@
   "active": true,
   "members": [
     {
-      "name": "Molecule Man",
-      "age": 29,
-      "secretIdentity": "Dan Jukes",
-      "url": "http://google.de",
-      "id": "001",
-      "imageName": "Molecule Man",
-      "image": "molecule_man.jpg",
+      "name": "Madame Uppercut",
+      "age": 39,
+      "secretIdentity": "Jane Wilson",
+      "url": "http://bing.de",
+      "id": "002",
+      "imageName": "Madame Uppercut",
+      "image": "madame_uppercut.jpg",
       "path": "images",
       "powers": [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
       ]
     },
     {
