@@ -17,7 +17,7 @@
       "bookList": {
         "bookID": "1",
         "bookName": "Computer Architecture",
-        "Price": 125.60
+        "Price": 125.60,
         "category": [
           "Computers",
           "Bios",
