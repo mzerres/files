@@ -15,7 +15,6 @@
       "image": "molecule_man.jpg",
       "path": "images",
       "bookList": [
-        {
           "bookID": "1",
           "bookName": "Computer Architecture",
           "Price": 125.60,
@@ -24,7 +23,6 @@
             "Bios",
             "Security"
           ]
-        },
       ]
       "powers": [
         "Radiation resistance",
