@@ -16,10 +16,10 @@
       "path": "images",
       "bookList": 
         {
-          "bookID": "1",
+          "book ID": "1",
           "bookName": "Computer Architecture",
-          "price": 125.60,
-          "category": [
+          "Price": 125.60,
+          "Category": [
             "Computers",
             "Bios",
             "Security" 
